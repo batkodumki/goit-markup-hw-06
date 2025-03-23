@@ -16,14 +16,19 @@ p{
   display: flex;
   align-items: center;
   gap: 76px;
+  
 }
 .head .container {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin: 0 auto; 
+  padding: 0 15px; 
 }
 
-
+.head{
+  border-bottom: 1px solid #e7e9fc
+}
 body {
   font-family: "Roboto", sans-serif;
   color: #434455;
@@ -51,6 +56,7 @@ button:hover, button:focus {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  padding: 24px 0;
 }
 
 .nav-link:hover, .nav-link:focus {
@@ -94,6 +100,8 @@ button:hover, button:focus {
   font-weight: 700;
   text-align: center;
   letter-spacing: 0.02em;
+  max-width: 496px; 
+  margin: 0 auto;
 }
 
 .footer {
@@ -106,6 +114,20 @@ button:hover, button:focus {
 
 .cta-button {
   font-size: 16px;
+  display: block;      
+  min-width: 169px;     
+  height: 56px;         
+  border: none;         
+  border-radius: 4px;   
+  margin: 48px auto 0;  
+  background-color: #4D5AE5;
+  color: #FFFFFF;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  font-family: "Roboto", sans-serif;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
 }
 
 .portfolio-item {
@@ -114,6 +136,7 @@ button:hover, button:focus {
 
 .eff-sol{
   background-color: #2e2f42;
+  padding: 188px 0;
 }
 .advantage-title{
   font-weight: 500;
@@ -121,6 +144,7 @@ button:hover, button:focus {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 .advantage-text{
   line-height: 1.5;
@@ -191,6 +215,7 @@ button:hover, button:focus {
   text-transform: uppercase;
   color: #4d5ae5;
   text-decoration: none;
+  margin-right: 76px;
 }
 .header-logo{
   color: #2E2F42;
@@ -206,17 +231,48 @@ button:hover, button:focus {
 }
 .nav-list{
   list-style: none;
+  display: flex;   
+  gap: 40px;       
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 .contact-list{
   list-style: none;
+  display: flex;    
+  gap: 40px;        
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 .advantage-list{
   list-style: none;
+  display: flex;
+  gap: 24px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 .team-list{
   list-style: none;
 }
 .portfolio-list{
   list-style: none;
+}
+.advantages {
+  padding: 120px 0;
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+.advantage-item {
+  flex-basis: calc((100% - 3 * 24px) / 4);
 }
 
