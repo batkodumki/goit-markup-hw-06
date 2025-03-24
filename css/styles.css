@@ -103,7 +103,13 @@ button:hover, button:focus {
   max-width: 496px; 
   margin: 0 auto;
 }
+.member-info {
+  padding: 32px 0;
+}
 
+.member-role {
+  text-align: center;
+}
 .footer {
   background-color: #2E2F42;
 }
@@ -155,7 +161,6 @@ button:hover, button:focus {
 .team-member{
   background-color: #FFFFFF;
   flex-basis: calc((100% - 3 * 24px) / 4);
-  border-radius: 0 0 4px 4px;
 }
 .section-title{
   font-size: 36px;
@@ -185,7 +190,7 @@ button:hover, button:focus {
   letter-spacing: 0.02em;
   text-align: center;
 }
-.team-info {
+.member-info {
   padding: 32px 0;
 }
 .portfolio-title{
