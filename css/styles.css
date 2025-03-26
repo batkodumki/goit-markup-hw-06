@@ -227,6 +227,7 @@ button:hover, button:focus {
   text-transform: uppercase;
   color: #4d5ae5;
   text-decoration: none;
+  margin-right: 76px;
 }
 .header-logo{
   color: #2E2F42;
